@@ -13,6 +13,8 @@ import '@stencil/core';
 export namespace Components {
 
   interface MyComponent {
+    'addPath': () => void;
+    'addText': () => void;
     /**
     * The first name
     */
